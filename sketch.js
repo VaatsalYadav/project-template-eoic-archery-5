@@ -61,7 +61,10 @@ function setup() {
 function draw() {
   background(189);
 
-  //write a correct line of code to display the background image
+  fill("#FFFF");
+  textAlign("center");
+  textSize(40);
+  text("EPIC ARCHERY", width / 2, 100);
   
 
   Engine.update(engine);
